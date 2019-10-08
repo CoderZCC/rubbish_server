@@ -19,29 +19,31 @@ class BaseModel(object):
                             onupdate=datetime.now)
 
 
-# city_rubbish = db.Table("city_rubbish",
-#                db.Column("rubbish_type_id",
-#                          db.Integer,
-#                          db.ForeignKey("py_rubbish_type.id")),
-#                db.Column("city_code_id",
-#                          db.Integer,
-#                          db.ForeignKey("py_city_code.id")))
-#
-#
-# class CityCode(BaseModel, db.Model):
-#     """城市省份表"""
-#     __tablename__ = "py_city_code"
-#     # 城市code
-#     city_code = db.Column(db.String(10), nullable=False, unique=True)
-#     # 城市名称
-#     city_name = db.Column(db.String(10), nullable=False, unique=True)
-#     # 省份名称
-#     province_name = db.Column(db.String(10), nullable=False, unique=True)
-#     # 多个垃圾类型
-#     rubbish_list = db.relationship("RubbishType", backref="city_list")
-#
-#     def __repr__(self):
-#         return "城市省份表-%s-%s" % (self.province_name, self.city_name)
+city_rubbish = db.Table("city_rubbish",
+                        db.Column("rubbish_type_id",
+                                  db.Integer,
+                                  db.ForeignKey("py_rubbish_type.id")),
+                        db.Column("city_id",
+                                  db.Integer,
+                                  db.ForeignKey("py_city_code.id")))
+
+
+class CityCode(BaseModel, db.Model):
+    """城市省份表"""
+    __tablename__ = "py_city_code"
+    # 城市code
+    city_code = db.Column(db.String(10), nullable=False, unique=True)
+    # 城市名称
+    city_name = db.Column(db.String(10), nullable=False, unique=True)
+    # 省份名称
+    province_name = db.Column(db.String(10), nullable=False, unique=True)
+    # 多个垃圾类型
+    rubbish_list = db.relationship("RubbishType",
+                                   secondary=city_rubbish,
+                                   back_populates="city_list")
+
+    def __repr__(self):
+        return "城市省份表-%s-%s" % (self.province_name, self.city_name)
 
 
 class RubbishType(BaseModel, db.Model):
@@ -61,10 +63,10 @@ class RubbishType(BaseModel, db.Model):
     rubbish_desc = db.Column(db.String(128), nullable=False, unique=True)
     # 垃圾列表, 数据库不存在,只存在model, backref是多类调用时,可以返回对象
     rubbish_details = db.relationship("RubbishDetail", backref="rubbish_type")
-    # # 多个城市
-    # city_list = db.relationship("CityCode",
-    #                             secondary=city_rubbish,
-    #                             backref="rubbish_list")
+    # 多个城市
+    city_list = db.relationship("CityCode",
+                                secondary=city_rubbish,
+                                back_populates="rubbish_list")
 
     def __repr__(self):
         return "垃圾类型表-%s" % self.rubbish_type
@@ -96,3 +98,4 @@ class RubbishDetail(BaseModel, db.Model):
 
     def __repr__(self):
         return "垃圾详情表-%s" % self.rubbish_title
+

@@ -295,3 +295,133 @@ INFO _internal.py:122 127.0.0.1 - - [30/Sep/2019 15:53:51] "GET /api/1.0/rubbish
 INFO _internal.py:122 127.0.0.1 - - [30/Sep/2019 15:53:51] "GET /api/1.0/rubbish_detail/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
 INFO _internal.py:122 127.0.0.1 - - [30/Sep/2019 15:53:51] "GET /api/1.0/rubbish_detail/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
 INFO _internal.py:122 127.0.0.1 - - [30/Sep/2019 15:53:51] "GET /api/1.0/rubbish_detail/1?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 117-884-187
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 10:55:58] "GET / HTTP/1.1" 500 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 10:55:58] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 10:55:58] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 10:55:58] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 10:55:59] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 10:55:59] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 10:55:59] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 10:55:59] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 500 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 10:55:59] "GET /apple-touch-icon.png HTTP/1.1" 500 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 10:57:07] "GET / HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 10:57:07] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 10:57:07] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 10:57:07] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 10:57:07] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 10:57:07] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 10:57:07] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:122  * Detected change in '/Users/zcc/Desktop/python/py_my_server/venv/lib/python3.7/site-packages/sqlalchemy/__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 117-884-187
+INFO _internal.py:122  * Detected change in '/Users/zcc/Desktop/GithubProject/rubbish_server/py_my_server/hello_rubbish/models/models.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 117-884-187
+INFO _internal.py:122  * Detected change in '/Users/zcc/Desktop/GithubProject/rubbish_server/py_my_server/hello_rubbish/models/models.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 117-884-187
+INFO _internal.py:122  * Detected change in '/Users/zcc/Desktop/GithubProject/rubbish_server/py_my_server/hello_rubbish/models/models.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 117-884-187
+INFO _internal.py:122  * Detected change in '/Users/zcc/Desktop/GithubProject/rubbish_server/py_my_server/hello_rubbish/models/models.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 117-884-187
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 117-884-187
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:20:59] "GET / HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:21:10] "GET / HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:21:11] "GET /api/v1.0/python HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:21:11] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:21:14] "GET /api/1.0/rubbish_type HTTP/1.1" 500 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:21:14] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:21:14] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:21:14] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:21:14] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:21:14] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:21:14] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:21:16] "GET /api/1.0/rubbish_type HTTP/1.1" 500 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:21:16] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:21:16] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:21:16] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:21:16] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:21:16] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/Users/zcc/Desktop/GithubProject/rubbish_server/py_my_server/hello_rubbish/api_v1_0/rubbish.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 117-884-187
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:22:37] "GET /api/1.0/rubbish_type HTTP/1.1" 500 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:22:37] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:22:37] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:22:37] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:22:37] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:22:37] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/Users/zcc/Desktop/GithubProject/rubbish_server/py_my_server/hello_rubbish/api_v1_0/rubbish.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 117-884-187
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:23:23] "GET /api/1.0/rubbish_type HTTP/1.1" 500 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:23:23] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:23:23] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:23:23] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:23:23] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:23:23] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:23:23] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:23:23] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:23:23] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:23:23] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:23:23] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+ERROR __init__.py:97 Error: Directory migrations already exists and is not empty
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 117-884-187
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:25:35] "GET /api/1.0/rubbish_type HTTP/1.1" 500 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:25:35] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:25:35] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:25:35] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:25:35] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:25:35] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/Users/zcc/Desktop/GithubProject/rubbish_server/py_my_server/hello_rubbish/models/models.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 117-884-187
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 117-884-187
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:29:28] "GET /api/1.0/rubbish_type HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:29:28] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:29:28] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:29:28] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:29:28] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:29:28] "GET /api/1.0/rubbish_type?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:29:28] "GET /favicon.ico HTTP/1.1" 404 -
+INFO _internal.py:122  * Detected change in '/Users/zcc/Desktop/GithubProject/rubbish_server/py_my_server/hello_rubbish/api_v1_0/rubbish.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 117-884-187
+INFO _internal.py:122  * Detected change in '/Users/zcc/Desktop/GithubProject/rubbish_server/py_my_server/hello_rubbish/api_v1_0/rubbish.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 117-884-187
+INFO _internal.py:122  * Detected change in '/Users/zcc/Desktop/GithubProject/rubbish_server/py_my_server/hello_rubbish/api_v1_0/rubbish.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 117-884-187
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:30:44] "GET /api/1.0/rubbish_type HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/Users/zcc/Desktop/GithubProject/rubbish_server/py_my_server/hello_rubbish/api_v1_0/rubbish.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 117-884-187
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:31:14] "GET /api/1.0/rubbish_type HTTP/1.1" 200 -
