@@ -1,12 +1,32 @@
 # coding: utf-8
 from . import api
 from hello_rubbish import db
-from hello_rubbish.models.models import RubbishType, RubbishDetail, CityCode
-import json
+from hello_rubbish.models.models import RubbishType, RubbishDetail, CityCode, RubbishTypeName
+import xlrd
 
 
+# GET api/1.0/rubbish_type
 @api.route("/rubbish_type", methods=["Get"])
 def get_rubbish_type():
+
+
+
+    return "aaa"
+
+
+# GET api/1.0/rubbish_detail/0
+@api.route("/rubbish_detail/<int:type_id>", methods=["GET"])
+def get_rubbish_detail(type_id):
+    rubbish_list = RubbishDetail.query.filter_by(rubbish_type_id=type_id).all()
+    # arr = []
+    for obj in rubbish_list:
+        print(obj.rubbish_title)
+        # json_str = json.dumps(obj)
+        # arr.append(json_str)
+    # print(arr)
+    return "获取id为%s的垃圾分类详情" % type_id
+
+"""
     # rubbish_type = RubbishType.query.get(1)
     # print(rubbish_type.rubbish_details)
     # detail = RubbishDetail.query.get(4)
@@ -35,23 +55,54 @@ def get_rubbish_type():
     # city.rubbish_list.append(rubbish1)
     # city.rubbish_list.append(rubbish2)
     # db.session.commit()
+    # rubbish = RubbishType.query.get(1)
+    # print(rubbish.city_list)
+    # city = CityCode.query.get(1)
+    # print(city.rubbish_list)
+"""
 
-    rubbish = RubbishType.query.get(1)
-    print(rubbish.city_list)
-    city = CityCode.query.get(1)
-    print(city.rubbish_list)
+"""
+    rubbish_type1 = RubbishType(rubbish_logo="rubbish0",
+                                rubbish_bgColor="0x3A76D1,0x2C116F",
+                                rubbish_textColor="0x2256A9,0x2256A9",
+                                rubbish_term="AAA;BBB",
+                                rubbish_desc="CCC")
 
-    return "aaa"
+    rubbish_type2 = RubbishType(rubbish_logo="rubbish1",
+                                rubbish_bgColor="0x3A8E24,0x0B6C5F",
+                                rubbish_textColor="0x417505,0x72B524",
+                                rubbish_term="AXX;XXX",
+                                rubbish_desc="DDD")
 
+    rubbish_type3 = RubbishType(rubbish_logo="rubbish2",
+                                rubbish_bgColor="0xAD2828,0x730F0F",
+                                rubbish_textColor="0xC73710,0xE97E61",
+                                rubbish_term="ABA;BBB",
+                                rubbish_desc="EEE")
 
-# GET api/1.0/rubbish_detail/0
-@api.route("/rubbish_detail/<int:type_id>", methods=["GET"])
-def get_rubbish_detail(type_id):
-    rubbish_list = RubbishDetail.query.filter_by(rubbish_type_id=type_id).all()
-    # arr = []
-    for obj in rubbish_list:
-        print(obj.rubbish_title)
-        # json_str = json.dumps(obj)
-        # arr.append(json_str)
-    # print(arr)
-    return "获取id为%s的垃圾分类详情" % type_id
+    rubbish_type4 = RubbishType(rubbish_logo="rubbish3",
+                                rubbish_bgColor="0x495368,0x1A1C20",
+                                rubbish_textColor="0x3B4252,0x737885",
+                                rubbish_term="ABB;BBB",
+                                rubbish_desc="FFF")
+
+    db.session.add(rubbish_type1)
+    db.session.add(rubbish_type2)
+    db.session.add(rubbish_type3)
+    db.session.add(rubbish_type4)
+    db.session.commit()
+    """
+
+"""
+    excel = xlrd.open_workbook("rubbishDetail.xls")
+    sheet_index = 0
+    sheet = excel.sheet_by_index(sheet_index)
+    rows = sheet.nrows
+    for i in range(rows):
+        if i == 0:
+            continue
+        text = sheet.row_values(i)[2]
+        detail = RubbishDetail(rubbish_type_id=sheet_index+1, rubbish_title=text)
+        db.session.add(detail)
+    db.session.commit()
+    """

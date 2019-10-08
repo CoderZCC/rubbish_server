@@ -1,8 +1,8 @@
 """empty message
 
-Revision ID: 9470f6e4efca
+Revision ID: c32fd9a387fd
 Revises: 
-Create Date: 2019-10-08 11:29:08.627214
+Create Date: 2019-10-08 17:43:32.334113
 
 """
 from alembic import op
@@ -10,7 +10,7 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = '9470f6e4efca'
+revision = 'c32fd9a387fd'
 down_revision = None
 branch_labels = None
 depends_on = None
@@ -49,7 +49,6 @@ def upgrade():
     sa.Column('is_del', sa.Boolean(), nullable=True),
     sa.Column('create_time', sa.DateTime(), nullable=True),
     sa.Column('update_time', sa.DateTime(), nullable=True),
-    sa.Column('rubbish_type', sa.String(length=1), nullable=False),
     sa.Column('rubbish_logo', sa.String(length=20), nullable=False),
     sa.Column('rubbish_bgColor', sa.String(length=20), nullable=False),
     sa.Column('rubbish_textColor', sa.String(length=20), nullable=False),
@@ -60,8 +59,7 @@ def upgrade():
     sa.UniqueConstraint('rubbish_desc'),
     sa.UniqueConstraint('rubbish_logo'),
     sa.UniqueConstraint('rubbish_term'),
-    sa.UniqueConstraint('rubbish_textColor'),
-    sa.UniqueConstraint('rubbish_type')
+    sa.UniqueConstraint('rubbish_textColor')
     )
     op.create_table('city_rubbish',
     sa.Column('rubbish_type_id', sa.Integer(), nullable=True),

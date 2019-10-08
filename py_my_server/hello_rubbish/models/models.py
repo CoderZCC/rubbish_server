@@ -49,15 +49,13 @@ class CityCode(BaseModel, db.Model):
 class RubbishType(BaseModel, db.Model):
     """垃圾类型表"""
     __tablename__ = "py_rubbish_type"
-    # 垃圾类型
-    rubbish_type = db.Column(db.String(1), nullable=False, unique=True)
     # 垃圾的图片
     rubbish_logo = db.Column(db.String(20), nullable=False, unique=True)
     # 背景颜色, "0x3A76D1,0x2C116F"
     rubbish_bgColor = db.Column(db.String(20), nullable=False, unique=True)
     # 文字颜色, "0x2256A9,0x2256A9"
     rubbish_textColor = db.Column(db.String(20), nullable=False, unique=True)
-    # 投放要求 ,分割
+    # 投放要求 ;分割
     rubbish_term = db.Column(db.String(128), nullable=False, unique=True)
     # 分类描述
     rubbish_desc = db.Column(db.String(128), nullable=False, unique=True)
