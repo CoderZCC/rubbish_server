@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="834c92b4-522f-46f7-8642-be3f1aad3f1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello_rubbish/api_v1_0/rubbish.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello_rubbish/api_v1_0/rubbish.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello_rubbish/models/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello_rubbish/models/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello_rubbish/models/test.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/1b19f67f0e3f_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/6ce3d6cfa7fd_.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/versions/9470f6e4efca_.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/a61d55befad5_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/d59b72ecff12_.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

@@ -425,3 +425,8 @@ INFO _internal.py:122  * Restarting with stat
 WARNING _internal.py:122  * Debugger is active!
 INFO _internal.py:122  * Debugger PIN: 117-884-187
 INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:31:14] "GET /api/1.0/rubbish_type HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/Users/zcc/Desktop/python/py_my_server/venv/lib/python3.7/site-packages/jinja2/__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 117-884-187
+INFO _internal.py:122 127.0.0.1 - - [08/Oct/2019 11:49:54] "GET / HTTP/1.1" 404 -
