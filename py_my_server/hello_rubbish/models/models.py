@@ -34,9 +34,9 @@ class CityCode(BaseModel, db.Model):
     # 城市code
     city_code = db.Column(db.String(10), nullable=False, unique=True)
     # 城市名称
-    city_name = db.Column(db.String(10), nullable=False, unique=True)
+    city_name = db.Column(db.String(255), nullable=False, unique=True)
     # 省份名称
-    province_name = db.Column(db.String(10), nullable=False, unique=True)
+    province_name = db.Column(db.String(255), nullable=False)
     # 多个垃圾类型
     rubbish_list = db.relationship("RubbishType",
                                    secondary=city_rubbish,
